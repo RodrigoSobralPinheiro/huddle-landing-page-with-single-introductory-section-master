@@ -1,0 +1,90 @@
+body {
+  max-width: 1440px;
+  height: 100%;
+  background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat ;
+  
+}
+
+header .huddle-logo {
+  margin: 50px 0 0 60px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div .main-image {
+  margin: 90px 0 0px 65px;
+}
+
+div .huddle-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div .title {
+  margin: 100px 0 0 40px;
+  font: 600 40px 'Poppins';
+  color: var(--color-of-text);
+  width: 500px;
+
+}
+
+div .huddle-description {
+  margin: 15px 50px 0 40px;
+  font: 400 20px 'Open Sans';
+  color: var(--color-of-text);
+  width: 580px;
+}
+
+.register {
+  display: block;
+  margin: 25px 0 0 40px;
+  padding: 10px 50px;
+  border: solid 1px;
+  border-radius: 30px;
+  font: 400 20px 'Open Sans';
+  color: var(--color-of-button);
+  background-color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.register:hover {
+  background-color: var(--color-of-hover);
+  color: var(--color-of-text);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 1330px;
+}
+
+footer a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 15px 10px;
+  border: solid 2px white;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  
+}
+
+footer a i {
+  font-size: 20px;
+  color: var(--color-of-text);
+}
+
+footer a:hover {
+  border-color: var(--color-of-hover);
+}
+
+footer a i:hover {
+  color: var(--color-of-hover);
+}
+
